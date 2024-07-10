@@ -17,8 +17,19 @@ nav ul {
     justify-content: space-between;
     align-items: center;
 }
+.name {
+    font-size: 28px;
+    font-weight: 800;
 
-.sec1{
+}
+.down{
+        padding: 15px;
+        border-radius: 8px;
+        background-color: white;
+        font-weight: 500;
+        font-size: 20px;
+}
+.sec{
     background-image:url(../styles/images/Hero-bg.png);
     height: 582px;
     margin: 26px auto;
@@ -28,7 +39,6 @@ nav ul {
 #box {
     width: 998px;
     height: 581px;
-    border: 10px solid red;
     margin: 50px auto;
     display: flex;
     justify-content: center;
@@ -48,15 +58,262 @@ nav ul {
     border-radius: 5px;
     font-size: 20px;
     font-weight: 600;
-    box-shadow: none;
+    padding: 20px 20px;
 }
 
 
 .main {
     width: 1140px;
-    height: 1393px;
+    height: 2000px;
     margin: 0 auto;
-    border: 60px solid #0D1321; 
-    margin: 70px auto;
-    padding: 80px;
+     padding: 80px;
+     border-radius: 16px;
+
+background: rgba(13, 19, 33, 0.02);
+}
+
+.headline1 {
+    text-align: center;
+
+}
+
+.title{
+
+    font-size: 40px;
+    font-weight: 800;
+}
+
+
+.sec1{
+    display: flex;
+    margin: 200px 0 0;
+}
+
+.intitle2{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.learn{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px;
+    background-color: white;
+    
+}
+
+
+.sec2{
+    display: flex;
+    margin: 100px 0 0 0;
+    flex-direction: row-reverse;
+   
+}
+
+.intitle3{
+    font-weight: bold;
+    font-size: 24px;
+    
+}
+
+.sec-title{
+    margin: 0 0 0 100px;
+}
+
+
+
+.sec3{
+    display: flex;
+    margin: 100px 0 0 0;
+}
+
+.intitle4{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.headline2 {
+    text-align: center;
+    
+}
+
+.title3{
+    
+    
+        font-size: 40px;
+        font-weight: 800;
+
+}
+
+.sec3,headline2{
+    margin-bottom: 350px;
+}
+
+.insvdo{
+
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.2);
+border-radius: 16px;
+
+}
+
+footer{
+    width: 1440px;
+    height: 100px;
+    border: 2px solid yellow;
+    margin: 600px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 150px;
+    
+}
+
+footer ul {
+    
+    display: flex;
+
+    }
+    
+
+footer ul li {
+margin-right: 15px;
+    list-style: none;
+    text-decoration: none;
+}
+
+footer h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.tcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    text-align: center;
+}
+
+
+
+.Ptargetcon {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.Ptarget {
+   
+    padding: 20px;
+    text-align: left;
+    width: 150px;
+    
+}
+.bg{
+    border-radius: 16px;
+
+background: rgba(255, 76, 30, 0.05);
+}
+
+.bg1{
+
+    border-radius: 16px;
+
+background: rgba(0, 76, 232, 0.05);
+}
+
+
+.bg2{    border-radius: 16px;
+
+    background: rgba(255, 223, 0, 0.05); }
+
+
+
+.Ptarget img {
+    width: 56px;
+    height: 56px;
+}
+
+
+
+
+
+.Ptarget a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
+
+.cover-bg{
+    background-image: url(../styles/images/handshake.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1140px;
+    height: 314px;
+    margin: 38px auto;
+    border-radius: 15px;
+    padding-top: 1px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+}
+.cover-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 64px auto;
+    width: 1044px;
+    height: 186px;
+   
+
+}
+.cover-title{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.cover-text{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 26px;
+    letter-spacing: 0%;
+    opacity: 0.7;
+    margin: 16px 0px;
+}
+
+.cover-btn{
+    width: 120px;
+    height: 58px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    margin: 0px 16px;
+    padding: 17px 20px 17px 20px;
+    justify-content: center;
+  
+    
+}
+.cover-box{
+    width: 548px;
+    height: 57px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+
+/* footer section */
+footer{
+    width: 1440px;
+    height: 100px;
+    margin: 80px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 150px;
 }
